@@ -32,7 +32,7 @@ pipeline {
               -Dsonar.projectKey=jash1313_Jenkins-Zero-To-Hero \
               -Dsonar.organization=jash1313 \
               -Dsonar.host.url=https://sonarcloud.io \
-              -Dsonar.token=35183e2a43273e525195cc456a7eb42474f8321a
+              -Dsonar.token=$SONAR_TOKEN
           '''
         }
       }
